@@ -1,0 +1,39 @@
+body{background: #4C3B4D; font-size: 16px; color: #FFEEDB;}
+a:hover{cursor: pointer; color:#fff; }
+.max-width{max-width: 980px; margin: auto;}
+
+
+.c-white{color: #FFEEDB;}
+.c-black{color: #4C3B4D;}
+.c-red{color: #FFEEDB;}
+
+.font-small{font-size: 14px;}
+.font-too-large{font-size: 52px;}
+
+
+.header-top{padding: 15px;}
+.left-navbar{display: none; z-index: 999; width: 320px; height: 1000%; position: fixed; background: #ADA8B6; padding-top: 100px; top: 0px; left: 0px; border-right: #000 solid 1px;}
+a.nav-button{z-index: 99999; position: relative; color: #FFEEDB; font-size: 32px; cursor: pointer; line-height: 40px;}
+
+ul.search-characters, ul.results{margin: 0px; padding: 0px; list-style: none;}
+ul.search-characters li{text-align: center; list-style: none; margin: 0px; padding: 0px;}
+ul.results li{ padding: 10px 0px; font-size: 24px;}
+ul.results li a{color: #FFEEDB;}
+
+ul.search-characters li a{text-decoration: none; font-size: 16px; color: #FFEEDB; display: block; transition: all 0.1s;}
+ul.search-characters li a:hover{transition: all 0.1s; font-size: 32px; font-weight: bold;}
+
+.search-results{padding: 15px;}
+
+
+.profile-content{display: none;}
+#profile .profile-content{display: block;}
+.profile-pic{width: 150px; height: 150px;}
+.profile-details{margin: 15px 0px; padding: 10px; background: #ADA8B6;}
+
+
+.account-form {background: #ADA8B6; padding: 15px; border-top: #FFEEDB solid 5px;}
+.account-form a{color: #FFEEDB;}
+.account-form a:hover{color: #FFF;}
+
+input[type="file"]{margin-top: 5px;}
